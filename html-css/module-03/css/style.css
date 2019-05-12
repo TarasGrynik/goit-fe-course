@@ -71,16 +71,22 @@ a {
  margin-bottom: 27px;
 }
 
+.subtext {
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+
 .footer {
   text-align: center;
 }
 
 .btn {
-  margin: 55px 0 70px;
+  margin: 15px 0 70px;
   padding: 20px 33px;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
   color: #626262;
   background: transparent;
   border: 1px solid #626262;
+  cursor: pointer;
 }
