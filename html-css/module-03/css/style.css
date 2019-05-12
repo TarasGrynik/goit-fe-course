@@ -1,6 +1,5 @@
 body {
   font-family: 'Playfair Display', serif;
-  font-weight: regular;
   color: #626262;
 }
 
@@ -23,16 +22,17 @@ a {
 
 .nav {
   margin: 77px 0 104px;
-  
+
 }
 
-.nav__list > li {
+.nav__list>li {
   display: inline-block;
 }
 
 .nav__item {
   margin-right: 100px;
 }
+
 .nav__link:hover {
   color: #03a9f4;
 }
@@ -67,8 +67,8 @@ a {
 }
 
 .title {
- font-size: 30px;
- margin-bottom: 27px;
+  font-size: 30px;
+  margin-bottom: 27px;
 }
 
 .subtext {
