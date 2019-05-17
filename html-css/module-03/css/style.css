@@ -2,6 +2,7 @@ body {
   font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
   color: #626262;
   font-size: 14px;
+  line-height: 24px;
 }
 
 .nav__list a {
@@ -68,7 +69,7 @@ body {
 .lifestyle__subtitle {
   font: 300 14px/17px "Ubuntu", sans-serif; 
   text-transform: uppercase;
-  margin: 28px 0 19px;
+  margin: 22px 0 19px;
 }
 
 .lifestyle__title {
@@ -77,10 +78,10 @@ body {
   margin-bottom: 29px;
 }
 
-.lifestyle__text {
+/* .lifestyle__text {
   font-size: 14px;
   line-height: 24px;
-}
+} */
 
 .btn {
   display: block;
