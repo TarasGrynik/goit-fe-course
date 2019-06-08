@@ -53,14 +53,8 @@ body {
   margin-bottom: 132px;
 }
 
-/* This class added for two last
- article for remove bottom margine */
-.lifestyle-margin-bottom {
+.lifestyle:nth-last-child(-n+2) {
   margin-bottom: 0;
-}
-
-.lifestyle:last-child {
-  margin-bottom: 0px;
 }
 
 .lifestyle {
