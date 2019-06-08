@@ -1,5 +1,9 @@
+:root {
+  --inline-gap: 4px;
+}
+
 body {
-  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   color: #626262;
   font-size: 14px;
   line-height: 24px;
@@ -24,8 +28,7 @@ body {
 }
 
 .nav {
-  margin: 70px 0 97px;
-
+  padding: 70px 0 97px;
 }
 
 .nav__list > li {
@@ -36,12 +39,12 @@ body {
   margin-right: 100px;
 }
 
-.nav__link:hover {
-  color: #03a9f4;
-}
-
 .nav__item:last-child {
   margin-right: 0px;
+}
+
+.nav__link:hover {
+  color: #03a9f4;
 }
 
 /* END HEADER */
@@ -50,26 +53,30 @@ body {
   margin-bottom: 132px;
 }
 
+/* This class added for two last
+ article for remove bottom margine */
+.lifestyle-margin-bottom {
+  margin-bottom: 0;
+}
+
 .lifestyle:last-child {
   margin-bottom: 0px;
 }
 
-.left__post {
-  margin-right: 56px;
-}
-
-.lifestyle__item {
+.lifestyle {
+  width: 420px;
   display: inline-block;
 }
 
-.lifestyle__item {
-  width: 420px;
+.lifestyle:nth-child(odd) {
+  margin-right: calc(60px - var(--inline-gap));
 }
 
 .lifestyle__subtitle {
-  font: 300 14px/17px "Ubuntu", sans-serif; 
+  font: 300 14px/17px "Ubuntu", sans-serif;
   text-transform: uppercase;
   margin: 22px 0 19px;
+  color: #b4ad9e;
 }
 
 .lifestyle__title {
@@ -80,19 +87,17 @@ body {
 
 .btn {
   display: block;
-  margin: 50px auto 70px;
-  width: 164px;
-  height: 60px;
+  margin: 54px auto 70px;
+  padding: 17px 32px;
   text-align: center;
   border: 1px solid #626262;
-  font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
   background-color: transparent;
   font-size: 20px;
   line-height: 24px;
   color: #626262;
   cursor: pointer;
 }
-
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -108,6 +113,6 @@ input[type="radio"].visually-hidden {
   white-space: nowrap;
 
   clip-path: inset(100%);
-  clip: rect( 0 0 0 0);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
