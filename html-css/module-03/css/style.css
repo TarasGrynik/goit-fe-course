@@ -48,32 +48,29 @@ body {
 }
 
 /* END HEADER */
-
-.lifestyle {
+.article {
+  width: 420px;
+  display: inline-block;
   margin-bottom: 132px;
 }
 
-.lifestyle:nth-last-child(-n+2) {
+.article:nth-last-child(-n+2) {
   margin-bottom: 0;
 }
 
-.lifestyle {
-  width: 420px;
-  display: inline-block;
-}
 
-.lifestyle:nth-child(odd) {
+.article:nth-child(odd) {
   margin-right: calc(60px - var(--inline-gap));
 }
 
-.lifestyle__subtitle {
+.article__subtitle {
   font: 300 14px/17px "Ubuntu", sans-serif;
   text-transform: uppercase;
   margin: 22px 0 19px;
   color: #b4ad9e;
 }
 
-.lifestyle__title {
+.article__title {
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 29px;
