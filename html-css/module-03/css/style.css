@@ -48,13 +48,14 @@ body {
 }
 
 /* END HEADER */
+
 .article {
   width: 420px;
   display: inline-block;
   margin-bottom: 132px;
 }
 
-.article:nth-last-child(-n+2) {
+.article:nth-last-of-type(-n+2) {
   margin-bottom: 0;
 }
 
