@@ -1,0 +1,143 @@
+:root {
+  --text-color: #555252;
+  --style-elem-color: #1abc9c;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+/* HEADER SECTION */
+.header {
+  margin-bottom: 112px;
+}
+
+.nav {
+  height: auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  padding-top: 38px;
+  text-transform: uppercase;
+  font: 300 30px/32px "Roboto", Arial, sans-serif;
+}
+
+.logo__link {
+  color: var(--text-color);
+}
+
+.logo::first-letter {
+  font-weight: 900;
+  color: var(--style-elem-color);
+}
+
+.nav__list {
+  float: right;
+  padding-top: 40px;
+}
+
+.nav__item {
+  float: left;
+  margin-right: 34px;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__link {
+  font: 700 14px/11px "OpenSans", Arial, Helvetica, sans-serif;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  color: var(--style-elem-color);
+}
+
+/* MAIN SECTIONS FEATURE PRODUCTS */
+
+.section-title {
+  font: 900 48px/32px "Roboto", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.featured-prod__title {
+  margin-bottom: 92px;
+}
+
+.featured-prod__title:after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: var(--style-elem-color);
+  margin: 32px auto 0;
+}
+
+.featured-prod__item {
+  margin-bottom: 30px;
+  width: 255px; 
+  float: left;
+}
+
+.right-gap {
+  margin-right: 29px;
+}
+
+.featured-prod__item:hover .featured-prod__name {
+  background-color: var(--style-elem-color);
+}
+
+.featured-prod__item:hover .featured-prod__price {
+  background-color: var(--style-elem-color);
+}
+
+.featured-prod__name,
+.featured-prod__price {
+  padding: 4px 0px;
+  background-color: #323232;
+  color: #fff;
+  font: 900 18px/32px "Roboto", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.featured-prod__name {
+  width: 201px;
+  float: left;
+  padding-left: 14px;
+}
+
+.featured-prod__name-link {
+  display: block;
+  color: #fff;
+}
+
+.featured-prod__price {
+  float: right;
+  width: 54px;
+  opacity: 0.439;
+  text-align: center;
+  vertical-align: middle;
+}
