@@ -115,10 +115,11 @@ img {
 
 .featured-prod__name,
 .featured-prod__price {
-  padding: 4px 0px;
-  background-color: #323232;
-  color: #fff;
   font: 900 18px/32px "Roboto", Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #323232;
+  height: 40px;
+  line-height: 40px;
   box-sizing: border-box;
   text-transform: uppercase;
 }
@@ -129,15 +130,15 @@ img {
   padding-left: 14px;
 }
 
-.featured-prod__name-link {
-  display: block;
-  color: #fff;
-}
-
 .featured-prod__price {
   float: right;
   width: 54px;
   opacity: 0.439;
   text-align: center;
-  vertical-align: middle;
 }
+
+.featured-prod__name-link {
+  display: block;
+  color: #fff;
+}
+
