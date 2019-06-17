@@ -96,8 +96,9 @@ img {
 }
 
 .featured-prod__item {
+  background-color:#e9f0fd;
   margin-bottom: 30px;
-  width: 255px; 
+  width: 255px;
   float: left;
 }
 
@@ -133,7 +134,7 @@ img {
 .featured-prod__price {
   float: right;
   width: 54px;
-  opacity: 0.439;
+  opacity: 0.44;
   text-align: center;
 }
 
@@ -141,4 +142,3 @@ img {
   display: block;
   color: #fff;
 }
-
