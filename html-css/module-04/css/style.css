@@ -86,6 +86,7 @@ img {
 .featured-prod__item {
   background-color: #e9f0fd;
   margin-bottom: 30px;
+  margin-right: 29px;
   width: 255px;
   float: left;
 }
@@ -94,7 +95,7 @@ img {
   margin-bottom: 0;
 }
 
-.right-gap { margin-right: 29px; }
+.right-gap-del { margin-right: 0px; }
 
 .featured-prod__item:hover .featured-prod__block {
   background-color: var(--style-elem-color);
@@ -126,7 +127,6 @@ img {
 }
 
 .featured-prod__name-link {
-  display: block;
   color: #fff;
   padding-left: 14px;
 }
