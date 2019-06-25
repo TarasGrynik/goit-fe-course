@@ -138,13 +138,13 @@ img {
   color: #fff;
   width: 104px;
   height: 104px;
-  background-color: var(--style-elem-color);
+  background-color:rgba(26, 188, 156, 0.65);
   border: none;
   cursor: pointer;
 }
 
 .slider__block-btn:hover {
-  background-color: rgba(26, 188, 156, 0.65);
+  background-color:  var(--style-elem-color);
 }
 
 .prev-btn,
@@ -219,8 +219,6 @@ img {
 
 .collection-block-overlay {
   position: relative;
-  width: 255px;
-  height: 282px;
 }
 
 .collection__name,
@@ -260,7 +258,7 @@ img {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
-.collection__overlay:hover {
+.collection__item-wrap:hover .collection__overlay {
   opacity: 1;
 }
 
@@ -270,7 +268,6 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 166px;
-  text-align: center;
 }
 
 .collection__overlay-btn {
@@ -284,9 +281,6 @@ img {
   border-color: var(--style-elem-color);
 }
 
-.collection__overlay-block-btn>button:last-child {
-  margin-right: 0;
-}
 
 .btn-like,
 .btn-share,
@@ -295,7 +289,7 @@ img {
   height: 50px;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 4px;
+  margin-right: 4.5px;
 }
 
 
@@ -309,6 +303,7 @@ img {
 
 .btn-clock {
   background-image: url(../img/icons/clock.png);
+  margin-right: 0;
 }
 
 .btn-cart {
