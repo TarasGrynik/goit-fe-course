@@ -71,7 +71,7 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  padding: 10px 0px;
+  padding: 8px 0px;
 }
 
 .nav__link:hover {
@@ -173,4 +173,17 @@ p {
   text-transform: uppercase;
   color: var(--section-title-color);
   margin-bottom: 14px;
+}
+
+/* SECTION OUR TEAM */
+
+.our-team__title {
+  margin-bottom: 44px;
+}
+
+.our-team__text {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 92px; 
 }
