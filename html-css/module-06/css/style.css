@@ -27,12 +27,6 @@ p {
   margin: 40px auto 0;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .wrapper {
   width: 1200px;
   margin: 0 auto;
