@@ -239,7 +239,7 @@ p {
 
 .team-overlay:hover {
   transform: translate(-10px, -10px);
-  transition: linear 0.2s;
+  transition: .2s linear;
   box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
 }
 
@@ -323,8 +323,6 @@ p {
 }
 
 .info__email {
-  font: 400 15px/24px "Roboto", sans-serif;
-  color: var(--main-text-color);
   border: 1px solid #e7e7e7;
   border-right: none;
   outline: none;
