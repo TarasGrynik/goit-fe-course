@@ -140,7 +140,7 @@ p {
   height: 32px;
   background-repeat: no-repeat;
   position: absolute;
-  top: 5px;
+  top: 0;
   left: 0;
 }
 
@@ -213,12 +213,12 @@ p {
   text-align: center;
 }
 
-.team-overlay > img {
-  display: block;
-}
-
 .team-overlay {
   position: relative;
+}
+
+.team-overlay > img {
+  display: block;
 }
 
 .team-overlay:before {
@@ -344,6 +344,7 @@ p {
   background-color: var(--style-elem-color);
   border: none;
   padding: 0px 33px;
+  cursor: pointer;
 }
 
 /* VISUALLY HIDDEN CLASS */
