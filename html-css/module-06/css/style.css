@@ -318,15 +318,17 @@ p {
 }
 
 .info__email::placeholder {
-  font-weight: 300;
-  font-style: italic;
+  font: italic 300 15px/24px "Roboto", sans-serif;
+  color: var(--main-text-color);
 }
 
 .info__email {
+  font-family: inherit;
+  color: var(--main-text-color);
   border: 1px solid #e7e7e7;
   border-right: none;
   outline: none;
-  padding: 7px 57px 7px 12px;
+  padding: 12px 57px 12px 12px;
 }
 
 .info__btn {
