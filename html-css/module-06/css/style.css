@@ -10,6 +10,12 @@ p {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section-title {
   text-transform: uppercase;
   font: 700 30px/36px "Montserrat", cursive;
@@ -23,7 +29,6 @@ p {
   width: 60px;
   height: 3px;
   background-color: var(--hover-color);
-  margin-top: 40px;
   margin: 40px auto 0;
 }
 
@@ -186,8 +191,7 @@ p {
 .team__text {
   text-align: center;
   width: 80%;
-  margin: 0 auto;
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
 .team-name {
@@ -209,10 +213,6 @@ p {
 
 .team-overlay {
   position: relative;
-}
-
-.team-overlay > img {
-  display: block;
 }
 
 .team-overlay:before {
@@ -324,7 +324,8 @@ p {
 
 .info__email {
   font-family: inherit;
-  color: var(--main-text-color);
+  color: var(--section-title-color);
+  font-size: 1em;
   border: 1px solid #e7e7e7;
   border-right: none;
   outline: none;
