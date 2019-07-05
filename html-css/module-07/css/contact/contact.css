@@ -1,0 +1,84 @@
+.contact-us {
+  background: url(../../img/map.png) no-repeat, var(--title-text-color);
+  background-position: right 100px;
+  padding-bottom: 115px;
+}
+
+.contact-us-title {
+  color: #ffffff;
+  padding-top: 76px;
+}
+
+.contact-us-subtitle {
+  padding-bottom: 73px;
+}
+
+.contact-us-form  textarea {
+  resize: none;
+  flex-basis: 457px;
+}
+
+.contact-us-form input,
+textarea,
+button {
+  text-transform: uppercase;
+  font: 700 14px/17px "Montserrat", sans-serif;
+  color: var(--form-text-color);
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  padding: 17px 21px;
+  box-sizing: border-box;
+}
+
+
+
+.contact-us-form 
+  textarea::placeholder,
+  input::placeholder {
+    color: var(--form-text-color);
+    letter-spacing: -0.3px;
+}
+
+.contact-us-elem {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.contact-us-wrap  {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 457px;
+}
+
+.contact-us-wrap input {
+  margin-bottom: 31px;
+}
+
+.contact-us-wrap input:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--main-style-color);
+  color: #ffffff;
+}
+
+.contact-us-elem input[name="name"]:valid,
+.contact-us-elem input[name="email"]:valid,
+.contact-us-elem textarea[name="message"]:valid {
+  outline: 3px solid green;
+  border-radius: 2px;
+}
+
+.contact-us-elem input[name="name"]:invalid,
+.contact-us-elem input[name="email"]:invalid,
+.contact-us-elem textarea[name="message"]:invalid {
+  outline: 3px solid red;
+  border-radius: 2px;
+}
