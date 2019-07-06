@@ -1,6 +1,6 @@
 .contact-us {
   background: url(../../img/map.png) no-repeat, var(--title-text-color);
-  background-position: right 100px;
+  background-position: right 108px;
   padding-bottom: 115px;
 }
 
@@ -18,7 +18,8 @@
   flex-basis: 457px;
 }
 
-.contact-us-form input,
+.contact-us-form 
+input,
 textarea,
 button {
   text-transform: uppercase;
@@ -67,7 +68,10 @@ button {
   border-radius: 2px;
   background-color: var(--main-style-color);
   color: #ffffff;
+  padding: 25px 62px;
 }
+
+
 
 .contact-us-elem input[name="name"]:valid,
 .contact-us-elem input[name="email"]:valid,
