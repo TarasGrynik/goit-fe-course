@@ -22,7 +22,6 @@
 input,
 textarea {
   color: var(--main-text-color);
-  outline: none;
   border: 1px solid #cccccc;
   border-radius: 2px;
   box-sizing: border-box;
@@ -77,9 +76,9 @@ textarea {
   border-radius: 2px;
 }
 
-.contact-us-elem input[name="name"]:invalid,
-.contact-us-elem input[name="email"]:invalid,
-.contact-us-elem textarea[name="message"]:invalid {
+.contact-us-elem input[name="name"]:focus:invalid,
+.contact-us-elem input[name="email"]:focus:invalid,
+.contact-us-elem textarea[name="message"]:focus:invalid {
   outline: 3px solid red;
   border-radius: 2px;
 }
