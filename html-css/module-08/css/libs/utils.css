@@ -6,7 +6,7 @@
   box-sizing: inherit;
 }
 
-.wrapper {
+.container {
   min-width: 320px;
   max-width: 768px;
   margin: 0 auto; 
@@ -19,10 +19,10 @@ img {
 }
 
 body {
-  font: var(--main-font);
+  font-family: var(--main-font);
   color: var(--main-text-color);
+  line-height: 1.2;
 }
-
 
 
 /* VISUALLY HIDDEN HELPER CLASS */

@@ -1,0 +1,175 @@
+.partners {
+  padding: 4.188rem 0.625rem 3.563rem;
+  font: var(--main-font);
+  line-height: inherit;
+  text-align: center;
+}
+
+.partners-title {
+  font-family: var(--main-title-font);
+  font-size: 1.375rem;
+  text-align: center;
+  margin-bottom: 0.9375rem;
+}
+
+.partners-item {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1.313rem;
+}
+
+.partners-wrap {
+  display: inline-block;
+  margin-bottom: 1.313rem;
+  position: relative;
+}
+
+
+.partners-interests {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  background-color: var(--main-style-color);
+
+  position: absolute;
+  right: -4px;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-tv {
+  background-color: var(--main-style-color);
+}
+
+.partners-flask {
+  background-color: #ffa507;
+}
+
+.partners-mug-hot {
+  background-color: #1cd7ad;
+}
+
+.partners-telegram-plane {
+  background-color: #4e73db;
+}
+
+
+.fab,
+.fas {
+  color: var(--promo-text-color);
+  font-size: 0.75rem;
+
+}
+
+.partners-img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.partners-name,
+.partners-disc {
+  text-align: center;
+}
+
+.partners-name {
+  font-family: var(--main-title-font);
+  margin-bottom: 0.6875rem;
+}
+
+.partners-link {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid var(--main-style-color);
+  color: var(--main-style-color);
+  font-family: var(--main-title-font);
+  padding: 0.75rem 4.375rem;
+  margin: 0 -10px;
+}
+
+
+@media screen and (min-width: 48em) and (max-width:58.750em) {
+
+  .partners-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 64%;
+    margin: 0 auto;
+  }
+
+  .partners-item {
+    flex-basis: 48%;
+    padding-bottom: 3.188rem;
+    margin: 0;
+  }
+
+  .partners-title {
+    margin-bottom: 1.938rem;
+  }
+
+  .partners-link {
+    padding: 0.75rem 1.75rem;
+  }
+
+  .Bradley {
+    order: 1;
+  }
+
+  .Lukas {
+    order: 3;
+  }
+
+  .Heather {
+    order: 2;
+  }
+
+  .Heather2 {
+    order: 4;
+  }
+}
+
+
+@media screen and (min-width: 58.750em) {
+
+  .partners-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .partners-item {
+    flex-basis: 23%;
+    padding-bottom: 3.188rem;
+    margin: 0;
+  }
+
+  .partners-title {
+    margin-bottom: 1.938rem;
+  }
+
+  .partners-link {
+    padding: 0.75rem 1.75rem;
+  }
+
+  .Bradley {
+    order: 1;
+  }
+
+  .Lukas {
+    order: 3;
+  }
+
+  .Heather {
+    order: 2;
+  }
+
+  .Heather2 {
+    order: 4;
+  }
+}

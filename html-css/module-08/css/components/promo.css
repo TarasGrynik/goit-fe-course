@@ -1,0 +1,76 @@
+.promo {
+  padding: 10.63rem 0.625rem 8.75rem;
+  font-family: var(--main-title-font);
+  color: var(--promo-text-color);
+  background: url("../../img/promo-section/Desktop.png") no-repeat top center,
+    rgba(26, 25, 21, 1);
+  background-size: cover;
+  text-align: center;
+}
+
+.promo-group {
+  padding-bottom: 0.875rem;
+}
+
+.logo-promo {
+  margin-bottom: 2.125rem;
+}
+
+.logo-link {
+  font-size: 1.25rem;
+  color: var(--promo-text-color);
+}
+
+.promo-title {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
+.promo-desc {
+  font-family: var(--main-font);
+  font-size: 1.125rem;
+  margin: 0 auto 1.25rem;
+  max-width: 68%;
+}
+
+.promo-link {
+  color: var(--promo-text-color);
+  background-color: var(--main-style-color);
+}
+
+.section-btn {
+  display: inline-block;
+  padding: 0.75rem 2.938rem;
+  border-radius: 20px;
+  margin: 0 -10px;
+}
+
+@media screen and (min-width: 48em) and (max-width:58.750em) {
+
+  .logo-promo {
+    display: none;
+  }
+
+  .promo-title {
+    font-size: 3.25rem;
+  }
+
+  .promo-desc {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 58.750em) {
+
+  .logo-promo {
+    display: none;
+  }
+
+  .promo-title {
+    font-size: 3.25rem;
+  }
+
+  .promo-desc {
+    font-size: 1.5rem;
+  }
+}
