@@ -64,11 +64,15 @@
   }
 
   .logo-link {
-    font: var(--main-title-font);
+    font-family: var(--main-title-font);
   }
 
   .nav {
     margin: 0;
+  }
+
+  .nav-link {
+    padding: 10px 15px;
   }
 
 }
@@ -81,6 +85,6 @@
   }
   
   .logo-link {
-    padding-left: 1.25rem;
+    /* padding-left: 1.25rem;  */
   }
 }
