@@ -1,5 +1,5 @@
 .promo {
-  padding: 10.63rem 0.625rem 8.75rem;
+  padding: 10.63rem 0 8.75rem;
   font-family: var(--main-title-font);
   color: var(--promo-text-color);
   background: url("../../img/promo-section/Desktop.png") no-repeat top center,
@@ -8,12 +8,12 @@
   text-align: center;
 }
 
-.promo-group {
-  padding-bottom: 0.875rem;
+.logo-promo {
+  margin-bottom: 1.8125rem;
 }
 
-.logo-promo {
-  margin-bottom: 2.125rem;
+.promo-group {
+  padding-bottom: 0.625rem;
 }
 
 .logo-link {
@@ -29,8 +29,8 @@
 .promo-desc {
   font-family: var(--main-font);
   font-size: 1.125rem;
-  margin: 0 auto 1.25rem;
-  max-width: 68%;
+  max-width: 69%;
+  margin: 0 auto 0.8125rem;
 }
 
 .promo-link {
@@ -42,10 +42,11 @@
   display: inline-block;
   padding: 0.75rem 2.938rem;
   border-radius: 20px;
-  margin: 0 -10px;
 }
 
-@media screen and (min-width: 48em) and (max-width:58.750em) {
+/* MEDIA */
+/* min-width 768px */
+@media screen and (min-width: 48em) {
 
   .logo-promo {
     display: none;
@@ -60,6 +61,7 @@
   }
 }
 
+/* min-width 940px */
 @media screen and (min-width: 58.750em) {
 
   .logo-promo {

@@ -1,5 +1,5 @@
 .partners {
-  padding: 4.188rem 0.625rem 3.563rem;
+  padding: 4.188rem 0 3.563rem;
   font: var(--main-font);
   line-height: inherit;
   text-align: center;
@@ -9,21 +9,20 @@
   font-family: var(--main-title-font);
   font-size: 1.375rem;
   text-align: center;
-  margin-bottom: 0.9375rem;
+  margin-bottom: 0.6875rem;
 }
 
 .partners-item {
   max-width: 80%;
   margin: 0 auto;
-  padding-bottom: 1.313rem;
+  padding: 0 10px 1.75rem;
 }
 
 .partners-wrap {
   display: inline-block;
-  margin-bottom: 1.313rem;
+  margin-bottom: 0.8125rem;
   position: relative;
 }
-
 
 .partners-interests {
   width: 36px;
@@ -33,7 +32,7 @@
   background-color: var(--main-style-color);
 
   position: absolute;
-  right: -4px;
+  right: 0;
   bottom: 0;
 
   display: flex;
@@ -57,12 +56,9 @@
   background-color: #4e73db;
 }
 
-
 .fab,
 .fas {
   color: var(--promo-text-color);
-  font-size: 0.75rem;
-
 }
 
 .partners-img {
@@ -81,25 +77,22 @@
 }
 
 .partners-link {
-  display: inline-block;
-  margin: 0 auto;
   text-align: center;
   background-color: transparent;
   border: 2px solid var(--main-style-color);
   color: var(--main-style-color);
   font-family: var(--main-title-font);
-  padding: 0.75rem 4.375rem;
-  margin: 0 -10px;
+  padding: 0.625rem 4.438rem;
 }
 
-
-@media screen and (min-width: 48em) and (max-width:58.750em) {
-
+/* MEDIA */
+/* min-width 768px */
+@media screen and (min-width: 48em) {
   .partners-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 64%;
+    width: 74.5%;
     margin: 0 auto;
   }
 
@@ -114,62 +107,35 @@
   }
 
   .partners-link {
-    padding: 0.75rem 1.75rem;
+    padding: 0.75rem 1.563rem;
   }
 
-  .Bradley {
-    order: 1;
-  }
+  .Bradley { order: 1; }
 
-  .Lukas {
-    order: 3;
-  }
+  .Lukas { order: 3; }
 
-  .Heather {
-    order: 2;
-  }
+  .Heather { order: 2; }
 
-  .Heather2 {
-    order: 4;
-  }
+  .Heather2 { order: 4; }
 }
 
-
-@media screen and (min-width: 58.750em) {
+/* min-width 940px */
+@media screen and (min-width: 58.75em) {
+  .container {
+    width: 940px;
+    margin: 0 auto;
+  }
 
   .partners-list {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
   }
 
   .partners-item {
-    flex-basis: 23%;
-    padding-bottom: 3.188rem;
+    flex-basis: 220px;
     margin: 0;
-  }
-
-  .partners-title {
-    margin-bottom: 1.938rem;
-  }
-
-  .partners-link {
-    padding: 0.75rem 1.75rem;
-  }
-
-  .Bradley {
-    order: 1;
-  }
-
-  .Lukas {
-    order: 3;
-  }
-
-  .Heather {
-    order: 2;
-  }
-
-  .Heather2 {
-    order: 4;
+    padding: 0 0 3.188rem;
   }
 }
