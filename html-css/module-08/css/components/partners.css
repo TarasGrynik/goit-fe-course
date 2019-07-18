@@ -40,6 +40,29 @@
   align-items: center;
 }
 
+.partners-interests::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--promo-text-color);
+}
+
+.partners-tv::after {
+  content: "\f26c";
+}
+
+.partners-flask::after {
+  content: "\f0c3";
+}
+
+.partners-mug-hot::after {
+  content: "\f7b6";
+}
+
+.partners-telegram-plane::after {
+  content: "\f1d8";
+  margin-right: 3px;
+}
+
 .partners-tv {
   background-color: var(--main-style-color);
 }
@@ -54,11 +77,6 @@
 
 .partners-telegram-plane {
   background-color: #4e73db;
-}
-
-.fab,
-.fas {
-  color: var(--promo-text-color);
 }
 
 .partners-img {
@@ -110,13 +128,21 @@
     padding: 0.75rem 1.563rem;
   }
 
-  .Bradley { order: 1; }
+  .Bradley {
+    order: 1;
+  }
 
-  .Lukas { order: 3; }
+  .Lukas {
+    order: 3;
+  }
 
-  .Heather { order: 2; }
+  .Heather {
+    order: 2;
+  }
 
-  .Heather2 { order: 4; }
+  .Heather2 {
+    order: 4;
+  }
 }
 
 /* min-width 940px */
@@ -138,5 +164,4 @@
     margin: 0;
     padding: 0 0 2.1875rem;
   }
-
 }
