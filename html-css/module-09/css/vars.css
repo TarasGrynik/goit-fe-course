@@ -1,0 +1,10 @@
+:root {
+  --main-font: "RobotoLight", sans-serif;
+  --main-title-font: "MontserratBold", sans-serif;
+  --main-style-color: #ff4e50;
+  --promo-text-color: #ffffff;
+  --main-text-color: #666666;
+  --partner-header-color: #333333;
+
+  font-size: 100%;
+}

@@ -1,0 +1,60 @@
+.promo {
+  background: url(../../img/promo-section/Desktop.png) no-repeat top center,
+    #1a1915;
+  background-size: cover;
+  padding: 10.8125rem 0 8.625rem;
+  text-align: center;
+  color: var(--promo-text-color);
+  font-family: var(--main-title-font);
+}
+
+.promo-logo {
+  padding-bottom: 1.5625rem;
+}
+
+.promo-logo__link {
+  color: var(--promo-text-color);
+  font-size: 1.25rem;
+}
+
+.promo-title {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-bottom: 0.625rem;
+}
+
+.promo-desc {
+  font: 1.125rem var(--main-font);
+  width: 70%;
+  padding-bottom: 0.875rem;
+}
+
+.promo-link {
+  color: var(--promo-text-color);
+  background-color: #ff4e50;
+  padding: 0.75rem 2.9375rem;
+}
+
+
+
+@media screen and (min-width: 48rem) {
+  .promo {
+    padding: 11.875rem 0 14.6875rem;
+  }
+  
+  .promo-title {
+    font-size: 3.25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .promo-desc {
+    font-size: 1.5rem;
+    padding-bottom: 1.9375rem;
+  }
+
+  .promo-link {
+    padding: 0.75rem 1.1875rem;
+  }
+
+}

@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  line-height: 1.2;
+  font-size: 0.875rem;
+}
+
+.section-btn {
+  margin: 0 auto;
+  display: block;
+  border-radius: 20px;
+  display: block;
+}
+
+/* VISUALLY HIDDEN HELPER CLASS */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}

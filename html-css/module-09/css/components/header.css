@@ -1,0 +1,56 @@
+.header {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  right: 0;
+  padding: 1.25rem 0;
+}
+
+.nav-btn {
+  font: 0.875rem var(--main-title-font);
+  color: var(--promo-text-color);
+  border-radius: 20px;
+  border: 2px solid transparent;
+  padding: 8px 16px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  border-color: var(--promo-text-color);
+}
+
+.logo-link {
+  font: 1.25rem var(--main-title-font);
+  color: var(--promo-text-color);
+}
+
+
+@media screen and (min-width: 48rem) {
+  .header {
+    padding: 2.4375rem 0;
+  }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+  
+  .logo {
+    margin-left: 1.5rem;
+  }
+
+  .nav {
+    margin-right: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width: 62rem) {
+  .logo {
+    margin-left: -0.9375rem;
+  }
+
+  .nav {
+    margin-right: -0.9375rem;
+  }
+}
