@@ -1,0 +1,70 @@
+.our-service {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+.service__title  {
+  margin-bottom: 4.0625rem;
+}
+
+.our-service__item {
+  list-style: none;
+  flex: 0 1 370px;
+  padding-left: 5.625rem;
+  margin: 0 1.875rem 5.8125rem 0;
+
+  position: relative;
+}
+
+.our-service__item:nth-last-child(-n + 3) {
+margin-bottom: 10px;
+}
+
+.our-service__item::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  fill: var(--icon-style-color);
+
+  position: absolute;
+  left: 30px;
+  top: 4px;
+}
+
+.our-service__item--photo::before {
+  background: url(../../img/service-icon/alarm.svg) no-repeat;
+}
+
+.our-service__item--web::before {
+  background: url(../../img/service-icon/line-graph.svg) no-repeat;
+}
+
+.our-service__item--creativity::before {
+  background: url(../../img/service-icon/computer.svg) no-repeat;
+  width: 35px;
+}
+
+.our-service__item--seo::before {
+  background: url(../../img/service-icon/book.svg) no-repeat;
+}
+
+.our-service__item--css-html::before {
+  background: url(../../img/service-icon/home.svg) no-repeat;
+}
+
+.our-service__item--digital::before {
+  background: url(../../img/service-icon/image.svg) no-repeat;
+}
+
+.our-service__title {
+  text-transform: uppercase;
+  font: 0.875rem var(--main-menu-font), sans-serif;
+  color: var(--title-text-color);
+  margin-bottom: 0.75rem;
+}
+
+.our-service__desc {
+  line-height: 1.5rem;
+  font-size: 0.9375rem;
+}

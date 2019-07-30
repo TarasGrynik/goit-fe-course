@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-size: 0.875rem;
+  line-height: 1.2;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.dflex {
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 3px solid var(--banner-text-color);
+  color: var(--banner-text-color);
+  font-family: var(--main-title-font);
+}
+
+.section--gap {
+  padding: 0.875rem 0 3.0625rem;
+}
+
+.diff-font {
+  font-family: var(--main-title-top-font), sans-serif;
+  display: block;
+  text-transform: initial;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.section-title {
+  font: 1.875rem var(--main-title-font), sans-serif;
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  background-color: var(--main-style-color);
+  width: 60px;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+/* VISUALLY HIDDEN HELPER CLASS */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
