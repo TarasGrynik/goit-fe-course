@@ -41,10 +41,9 @@ body {
 .btn {
   cursor: pointer;
   text-transform: uppercase;
-  background-color: transparent;
-  border: 3px solid var(--banner-text-color);
   color: var(--banner-text-color);
   font-family: var(--main-title-font);
+  border: none;
 }
 
 .section--gap {

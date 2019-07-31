@@ -26,4 +26,6 @@
 
 .banner__btn {
   padding: 10px 29px;
+  background-color: transparent;
+  border: 3px solid var(--banner-text-color);
 }
