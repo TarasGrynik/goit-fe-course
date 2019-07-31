@@ -1,7 +1,13 @@
 .footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 
   border-top: 1px solid var(--footer-border-color);
   padding: 0.75rem 0 0.6875rem;
@@ -24,6 +30,22 @@
   border: 1px solid var(--footer-border-color);
   border-right: none;
   outline: none;
+}
+
+.form__email::-webkit-input-placeholder {
+  font-family: var(--member-occupation-font);
+}
+
+.form__email::-moz-placeholder {
+  font-family: var(--member-occupation-font);
+}
+
+.form__email:-ms-input-placeholder {
+  font-family: var(--member-occupation-font);
+}
+
+.form__email::-ms-input-placeholder {
+  font-family: var(--member-occupation-font);
 }
 
 .form__email::placeholder {
