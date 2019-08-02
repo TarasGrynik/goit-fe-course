@@ -38,5 +38,6 @@
         rgba(243, 129, 129, 0.9)
       ),
       url(../../img/banner/banner@2x.jpg) no-repeat top center;
+      background-size: cover;
   }
 }
