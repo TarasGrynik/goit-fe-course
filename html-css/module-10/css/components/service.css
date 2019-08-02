@@ -19,9 +19,7 @@
 margin-bottom: 10px;
 }
 
-.our-service__item::before {
-  content: "";
-  display: block;
+.our-service__img {
   width: 32px;
   height: 32px;
   fill: var(--icon-style-color);
@@ -29,31 +27,6 @@ margin-bottom: 10px;
   position: absolute;
   left: 30px;
   top: 4px;
-}
-
-.our-service__item--photo::before {
-  background: url(../../img/service-icon/alarm.svg) no-repeat;
-}
-
-.our-service__item--web::before {
-  background: url(../../img/service-icon/line-graph.svg) no-repeat;
-}
-
-.our-service__item--creativity::before {
-  background: url(../../img/service-icon/computer.svg) no-repeat;
-  width: 35px;
-}
-
-.our-service__item--seo::before {
-  background: url(../../img/service-icon/book.svg) no-repeat;
-}
-
-.our-service__item--css-html::before {
-  background: url(../../img/service-icon/home.svg) no-repeat;
-}
-
-.our-service__item--digital::before {
-  background: url(../../img/service-icon/image.svg) no-repeat;
 }
 
 .our-service__title {
