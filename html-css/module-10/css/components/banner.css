@@ -1,5 +1,6 @@
 .banner {
-  padding: 110px 0 14.375rem;
+  height: 100vh;
+  padding: 2.5rem 0 14.375rem;
   text-align: center;
   color: var(--banner-text-color);
   background: linear-gradient(
