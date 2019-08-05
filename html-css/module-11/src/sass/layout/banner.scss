@@ -1,0 +1,42 @@
+.banner {
+  height: 100vh;
+  padding: 2.5rem 0 14.375rem;
+  text-align: center;
+  color: $banner-text-color;
+  background: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    ),
+    url(../images/banner/banner.jpg) no-repeat top center;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background: linear-gradient(
+        to top,
+        rgba(252, 227, 138, 0.9),
+        rgba(243, 129, 129, 0.9)
+      ),
+      url(../images/banner/banner@2x.jpg) no-repeat top center;
+    background-size: cover;
+  }
+}
+
+.banner__title {
+  font: 9.375rem/8.75rem $main-title-font, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 6.75rem;
+
+  &--diff {
+    display: block;
+    font: 4.5rem $main-title-top-font, sans-serif;
+    margin-bottom: 1.625rem;
+    text-transform: initial;
+  }
+}
+
+.banner__btn {
+  padding: 10px 29px;
+  background-color: transparent;
+  border: 3px solid $banner-text-color;
+}

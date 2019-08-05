@@ -1,0 +1,122 @@
+.our-team {
+  margin-bottom: 4.8125rem;
+}
+
+.our-team__title {
+  @extend %section-title;
+  margin-bottom: 2.625rem;
+
+  &::after {
+    @extend %title-underline;
+  }
+}
+
+.our-team__diff {
+  @extend %diff-font;
+} 
+
+
+.our-team__list {
+  @extend %list;
+  @include flex-center('sp-between');
+}
+
+.our-team__desc {
+  font-size: 0.9375rem;
+  line-height: 1.5rem;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5.5625rem;
+}
+
+.our-team__overlay {
+  max-width: 380px;
+  margin-bottom: 1.8125rem;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    opacity: 0;
+    background: linear-gradient(
+      to top,
+      rgba(252, 227, 138, 0.9),
+      rgba(243, 129, 129, 0.9)
+    );
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.2s;
+  }
+
+  &:hover::before {
+    opacity: 1;
+    cursor: pointer;
+    transition: linear 0.2s;
+  }
+}
+
+.our-team__overlay:hover .social-icon {
+  opacity: 1;
+  transition: linear 0.2s;
+}
+
+.our-team__overlay:hover {
+  transform: translate(-10px, -10px);
+  transition: 0.2s linear;
+  box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+}
+
+.social-icon {
+  @extend %list;
+  opacity: 0;
+  display: flex;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social-icon__img {
+  height: 30px;
+  width: 30px;
+  fill: $main-style-color;
+}
+
+.social-icon__item:hover {
+  background-color: $main-style-color;
+}
+
+.social-icon__item:hover .social-icon__img {
+  fill: $banner-text-color;
+}
+
+.social-icon__item {
+  width: 56px;
+  height: 56px;
+  background-color: $add-style-color;
+  margin-right: 2px;
+
+  @include flex-center('all');
+}
+
+.our-team__name,
+.our-team__occupation {
+  text-align: center;
+}
+
+.our-team__name {
+  text-transform: uppercase;
+  font-family: $main-menu-font;
+  color: $title-text-color;
+  margin-bottom: 0.4375rem;
+}
+
+.our-team__occupation {
+  font: 0.9375rem/1.5rem $member-occupation-font, sans-serif;
+}

@@ -1,0 +1,19 @@
+@mixin flex-center($type: 'flex') {
+  @if $type == 'flex' {
+    display: flex;
+  } @else if $type == 'all' {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }@else if $type == 'ver' {
+    display: flex;
+    align-items: center;
+  }@else if $type == 'hor' {
+    display: flex;
+    justify-content: center;
+  }@else if $type == 'sp-between' {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
