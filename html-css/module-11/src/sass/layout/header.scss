@@ -20,7 +20,7 @@
 }
 
 .header__link {
-  font-size: 1.875rem;
+  font-size: remy(30);
   @include flex-center('flex');
 }
 

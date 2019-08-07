@@ -46,7 +46,7 @@
 
 .our-service__title {
   text-transform: uppercase;
-  font: 0.875rem $main-menu-font, sans-serif;
+  font: remy(14) $main-menu-font;
   color: $title-text-color;
   margin-bottom: 0.75rem;
 }

@@ -22,8 +22,8 @@
 }
 
 .our-team__desc {
-  font-size: 0.9375rem;
-  line-height: 1.5rem;
+  font-size: remy(15);
+  line-height: remy(24);
   max-width: 950px;
   margin: 0 auto;
   text-align: center;
@@ -118,5 +118,5 @@
 }
 
 .our-team__occupation {
-  font: 0.9375rem/1.5rem $member-occupation-font, sans-serif;
+  font: remy(15)/remy(24) $member-occupation-font;
 }

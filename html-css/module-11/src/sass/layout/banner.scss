@@ -23,13 +23,13 @@
 }
 
 .banner__title {
-  font: 9.375rem/8.75rem $main-title-font, sans-serif;
+  font: remy(150)/remy(140) $main-title-font, sans-serif;
   text-transform: uppercase;
   margin-bottom: 6.75rem;
 
   &--diff {
     display: block;
-    font: 4.5rem $main-title-top-font, sans-serif;
+    font: remy(72) $main-title-top-font, sans-serif;
     margin-bottom: 1.625rem;
     text-transform: initial;
   }

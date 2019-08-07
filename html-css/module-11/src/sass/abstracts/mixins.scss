@@ -1,3 +1,4 @@
+//mixin add flex property for element
 @mixin flex-center($type: 'flex') {
   @if $type == 'flex' {
     display: flex;
@@ -16,4 +17,9 @@
     justify-content: space-between;
     align-items: center;
   }
+}
+
+// function for change px to rem
+@function remy( $pxsize ) {
+  @return ( $pxsize / 16 ) + rem;
 }
