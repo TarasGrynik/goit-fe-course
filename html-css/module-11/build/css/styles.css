@@ -1,6 +1,4 @@
-/*
-   Import partials below
-*/
+/* Utils */
 
 /* montserrat-regular - latin */
 
@@ -800,7 +798,7 @@ h3 {
 }
 
 .our-team__occupation {
-  font: 0.9375rem/1.5rem "RobotoLightItalic", sans-serif, sans-serif;
+  font: 0.9375rem/1.5rem "RobotoLightItalic", sans-serif;
 }
 
 .footer__wrap {
