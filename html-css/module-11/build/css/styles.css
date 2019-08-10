@@ -720,6 +720,7 @@ h3 {
   max-width: 380px;
   margin-bottom: 1.8125rem;
   position: relative;
+  transition: transform .2s linear;
 }
 
 .our-team__overlay::before {
